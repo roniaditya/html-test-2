@@ -35,21 +35,31 @@ body {
   color: #ff3300;
 }
 
-#menu {
-  text-align: right;
+ul#menu {
   text-transform: lowercase;
   color: #999;
   border-top: 1px #ccc solid;
   border-bottom: 1px #ccc solid;
   padding-top:10px;
   padding-bottom:10px;
+  padding-left:0;
+  padding-right: 0;
+  display: inline;
+  list-style: none;
 }
 
-#menu > a {
+ul#menu > li {
+  display: inline;
+  margin-left:20px;
+}
+
+ul#menu > li:first-child {
+  margin-left:0;
+}
+
+ul#menu > li > a {
   color: #999;
   text-decoration: none;
-  margin-left:10px;
-  margin-right:10px;
 }
 
 #body-row-1 {
@@ -106,4 +116,9 @@ body {
   margin-right:20%;
   color:#ccc;
   text-align:right;
+}
+
+.text-right {
+  text-align: right;
+  margin-top:20px;
 }
