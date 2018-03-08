@@ -1,21 +1,24 @@
 body {
-  font-family: 'Slabo 27px', serif;
   font-family: 'Dosis', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-image: url("http://supernovathemes.com/wp-content/themes/supernovathemes/images/bg/b3.png");
+}
+
+h3{
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin:0;
+  padding: 0;
 }
 
 .garis{
-    border-bottom: 1px #ccc solid;
+    border-bottom: 2px #adadad solid;
 }
 
-#isi3{
-  border-right: 1px #ccc solid;
-}
-
-#isi4{
-  border-right: 1px #ccc solid;
+.garis2{
+  border-right: 2px #adadad solid;
 }
 
 #wrapper {
@@ -30,22 +33,22 @@ body {
 }
 
 #logo {
-  font-size: 40px;
+  font-size: 50px;
   text-transform: lowercase;
   color: #ff3300;
+  font-family: 'Yellowtail', cursive;
 }
 
 ul#menu {
   text-transform: lowercase;
-  color: #999;
-  border-top: 1px #ccc solid;
-  border-bottom: 1px #ccc solid;
+  color: #383838;
   padding-top:10px;
   padding-bottom:10px;
   padding-left:0;
   padding-right: 0;
   display: inline;
   list-style: none;
+  font-size: 20px;
 }
 
 ul#menu > li {
@@ -58,7 +61,8 @@ ul#menu > li:first-child {
 }
 
 ul#menu > li > a {
-  color: #999;
+  color: #000;
+  font-family: 'Rubik', sans-serif;
   text-decoration: none;
 }
 
@@ -94,7 +98,7 @@ ul#menu > li > a {
 
 .col-3 {
   width: 960px;
-  border-bottom: 1px #ccc solid;
+  border-bottom: 2px #adadad solid;
   padding-bottom:20px;
 }
 
@@ -108,14 +112,18 @@ ul#menu > li > a {
 .col-x {
   width: 30%;
   margin-left:20%;
-  color:#ccc;
+  color:#ffffff;
+  font-family: 'Damion', cursive;
+  font-size: 20px;
 }
 
 .col-y {
   width: 30%;
   margin-right:20%;
-  color:#ccc;
+  color:#ffffff;
   text-align:right;
+  font-family: 'Damion', cursive;
+  font-size: 20px;
 }
 
 .text-right {
